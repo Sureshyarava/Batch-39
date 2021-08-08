@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
         <style>
                #admin{display:none;}
-        #student1:hover{
+        #Student1:hover,#Admin:hover{
                   color:green;
                  }
         </style>
@@ -23,7 +23,7 @@
                                 <div id="student">
 				<form class="login100-form validate-form">
 					<span class="login100-form-title" id="student1" onclick="myFunction()">
-						Student
+						<span id="Student1">Student</span><i> or </i><span id="Admin">Admin</span>
 					</span>
                                         
                                          <script>
@@ -40,7 +40,7 @@
 
                                           </script>
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="Email" name="email" placeholder="Email@vardhaman.org">
+						<input class="input100" type="Email" name="email" placeholder="Student@vardhaman.org">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -73,10 +73,10 @@
                         <div id="admin">
                                         <form class="login100-form validate-form">
 					<span class="login100-form-title" id="student1" onclick="myFunction()">
-						Admin
+						<span id="Student1">Student</span><i> or </i><span id="Admin">Admin</span>
 					</span>
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="Email" name="email" placeholder="UserName">
+						<input class="input100" type="text" name="email" placeholder="Admin@UserName">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
