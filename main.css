@@ -296,7 +296,7 @@ button:hover {
                 }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .wrap-login100 {
     padding: 450px 75px 33px 75px;
   }
