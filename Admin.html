@@ -90,7 +90,7 @@
                             <br>
                             <br>
                             <label for="Confirm" id="confirm">Confirm Password :&nbsp </label>
-                            <input type="password"  id="pass" name="pass" placeholder="Password" required="True"/>
+                            <input type="password"  id="pass" name="pass" placeholder="Password" required="True" required onchange="myFunction()"/>
                             <script>
                             if(document.getElementById("pass1").value != document.getElementById("pass").value){
                                    alert("Password did not Match");
